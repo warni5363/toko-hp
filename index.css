@@ -1,0 +1,166 @@
+.header {
+    background-color: green;
+
+}
+.nav-link {
+    color: white !important;
+}
+.navbar-brand {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.hero{
+
+    height: 600px;
+    background-size: cover;
+    background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+
+}
+
+.hero h1{
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+.hero p{
+
+    color: white;
+    font-weight: bold;
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px ;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+.hero a:hover{
+
+      color: white;
+      background-color: rgb(89, 0, 255);
+}
+.produk{
+    background-color: white;
+    height: 350px;
+    width: 240px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 5px white;
+    border-radius: 5px;
+}
+.produk img{
+    height: 150px;
+    width: 240px;
+    border-radius: 4px;
+}
+
+.nama-produk{
+    color: green;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.harga-produk{
+    color: black;
+    font-size: 15px;
+    font-weight: 150;
+    margin-top: -20px;
+    margin-left: 20px;
+
+}
+.produk a{
+    color: white;
+    text-decoration: none;
+    background-color: #008000;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+    margin-left: 15px;
+  
+}
+
+.produk a:hover{
+
+    color: white;
+    background-color: blue;
+
+}
+.footer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: green;
+    margin-top: 30px;
+    font-weight: bold;
+    
+}
+.menu-produk{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+@media  (max-width: 768px){
+
+    .hero{
+        
+        padding: 30px;
+        background-size: cover;
+    background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    }
+    .hero h1{
+
+        color: white;
+        font-size: 30px;
+        
+    }
+    
+    
+    }
+    .produk{
+        width: 120px;
+        height: 300px;
+    }
+    .produk img{
+        width: 120px;
+    }
+    .nama-produk{
+        font-size: 15px;
+        font-weight: 500;
+    
+    }
+    .harga-produk{
+        font-size: 15px;
+    }
+    .produk a{
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    .footer{
+        font-size: 10px;
+       
+    }
+    .bacground-image{
+        width: 300px;
+    }
+

@@ -1,0 +1,48 @@
+.header {
+    background-color: green;
+}
+.nav-link {
+    color: white !important;
+}
+.navbar-brand {
+    color: white !important;
+    font-weight: bold !important;
+}
+.kontak-form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.kontak-form h1{
+    color: green;
+    font-weight: bold;
+}
+.kontak-form input[type="text"],
+.kontak-form input[type="email"],
+.kontak-form textarea{
+    padding: 5px;
+    margin: 2px;
+    width: 100%;
+}
+.kontak-form button{
+    background-color: rgba(0, 132, 255, 0.692);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+@media  (max-width: 768px){
+    .kontak-form h1{
+        font-size: 20px;
+    }
+    .kontak-form input[type="text"],
+    .kontak-form input[type="email"],
+    .kontak-form textarea{
+    margin: 1px;
+    width: 100%;
+}
+}
